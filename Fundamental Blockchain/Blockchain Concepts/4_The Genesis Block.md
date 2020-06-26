@@ -1,0 +1,2 @@
+### The Genesis Block
+- The genesis block is the first block on the blockchain and it is typically hard-coded into the blockchain structure. Being the first block on the blockchain, it does not have a link to a previous hash.
