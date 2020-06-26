@@ -18,7 +18,22 @@ $ export FLASK_ENV=development
 ```
 $ flask run
 ```
+- Run publicly
+```
+$ flask run --host=0.0.0.0
+```
 ### Run Testing
 ```
 $ pytest
+```
+## Deploy
+```
+$ pipenv install gunicorn
+```
+```
+$ gunicorn "urlshort:create_app()" -b 0.0.0.0
+```
+```
+$ sudo apt install nginx
+$ systemctl status nginx
 ```
